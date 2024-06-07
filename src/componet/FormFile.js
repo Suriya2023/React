@@ -30,6 +30,19 @@ export default function FormFile(props) {
         ThisONSpeekBtn.text = text;
         window.speechSynthesis.speak(ThisONSpeekBtn);
     }
+
+    const handleCopy = () => {
+
+
+        let demoText = document.getElementById("exampleFormControlTextarea1")
+        demoText.select();
+        navigator.clipboard.writeText(demoText.value);
+    }
+
+    const handleRemoveSpace = () => {
+        let newText = text.split(/[ ]+/);
+        setText(newText.join(" "));
+    }
     return (
         <div>
 
@@ -57,6 +70,17 @@ export default function FormFile(props) {
                 &nbsp;&nbsp;
                 <button className='btn btn-outline-warning my-5' onClick={SpeakText}>
                     Speak
+                </button>
+
+
+                &nbsp;&nbsp;
+                <button className='btn btn-outline-warning my-5' onClick={handleRemoveSpace}>
+                handle Remove Space
+                </button>
+                
+                &nbsp;&nbsp;
+                <button className='btn btn-outline-warning my-5' onClick={handleCopy}>
+                    Copy Text 
                 </button>
             </div>
 
