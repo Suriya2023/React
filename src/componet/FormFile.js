@@ -44,23 +44,20 @@ export default function FormFile(props) {
                 &nbsp;&nbsp;
 
 
-                <button className='btn btn-outline-success my-5' onClick={OnDowcoVerter}>
+                <button className='btn btn-outline-primary my-5' onClick={OnDowcoVerter}>
                     Lower case  Converter
                 </button>
                 &nbsp;&nbsp;
 
 
-                <button className='btn btn-outline-success my-5' onClick={Cleartext}>
+                <button className='btn btn-outline-info my-5' onClick={Cleartext}>
                     Clear Text
                 </button>
 
                 &nbsp;&nbsp;
-                <button className='btn btn-outline-success my-5' onClick={SpeakText}>
+                <button className='btn btn-outline-warning my-5' onClick={SpeakText}>
                     Speak
                 </button>
-
-
-
             </div>
 
             <div className='container'>
