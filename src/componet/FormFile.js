@@ -34,7 +34,7 @@ export default function FormFile(props) {
     const handleCopy = () => {
 
 
-        let demoText = document.getElementById("exampleFormControlTextarea1")
+        let demoText = document.getElementById("exampleFormControlTextarea1");
         demoText.select();
         navigator.clipboard.writeText(demoText.value);
     }
