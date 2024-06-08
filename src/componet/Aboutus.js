@@ -14,7 +14,7 @@ export default function Aboutus(props) {
                 color:"white",
                 backgroundColor:"black",
                 borderRadius:"7px",
-                border:"2px solid white"
+                // border:"2px solid white"
 
             })
             setmyBtn("Enable To Light Mode");
@@ -24,7 +24,7 @@ export default function Aboutus(props) {
                 color:"black",
                 backgroundColor:"white",
                 borderRadius:"7px",
-                border:"2px solid black"
+                // border:"2px solid black"
             })
             setmyBtn("Enable To Dark mode")
         }
