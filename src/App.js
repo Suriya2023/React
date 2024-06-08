@@ -1,15 +1,15 @@
 import './App.css';
 
-import Navbar from './componet/Navbar';
+import Navbar from './componet/Navbar.js';
 // import FormFile from './componet/FormFile';
-import AboutUs from './componet/Aboutus';
+import AboutUs from './componet/Aboutus.js';
 function App() {
   return (
     <>
       <Navbar Title="Git" />
       {/* <FormFile FTitle="Input your text" /> */}
 
-      <AboutUs headinh="About-Us" />
+      <AboutUs heading="About-Us" />
 
 
 
