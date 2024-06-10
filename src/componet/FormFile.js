@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
 export default function FormFile(props) {
-    const [text, setText] = useState("add any text");
+    const [
+        , setText] = useState("add any text");
 
     const NewOnChangedText = (event) => {
         console.log("click text")
