@@ -16,10 +16,8 @@ export default function FormFile(props) {
     const OnDowcoVerter = () => {
         let abcd = (text.toLocaleLowerCase());
         setText(abcd);
-
-
-
     }
+
     const Cleartext = () => {
         let ThisONTextClear = ""
         setText(ThisONTextClear);
@@ -75,12 +73,12 @@ export default function FormFile(props) {
 
                 &nbsp;&nbsp;
                 <button className='btn btn-outline-warning my-5' onClick={handleRemoveSpace}>
-                handle Remove Space
+                    handle Remove Space
                 </button>
-                
+
                 &nbsp;&nbsp;
                 <button className='btn btn-outline-warning my-5' onClick={handleCopy}>
-                    Copy Text 
+                    Copy Text
                 </button>
             </div>
 
