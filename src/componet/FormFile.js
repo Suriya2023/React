@@ -46,7 +46,10 @@ export default function FormFile(props) {
 
             <div className=" mx-5">
                 <label for="exampleFormControlTextarea1" className="form-label">{props.FTitle}</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" onChange={NewOnChangedText} value={text} rows="9"></textarea>
+                <textarea className={`form-control bg-${props.mode === 'light' ? 'light' : 'dark'}
+                text-${props.mode === 'light' ? 'dark' : 'light'}
+
+               ` } id="exampleFormControlTextarea1" onChange={NewOnChangedText} value={text} rows="9"></textarea>
 
 
                 <button className='btn btn-outline-success my-5' onClick={OnUPcoVerter}>
