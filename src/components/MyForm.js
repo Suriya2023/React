@@ -41,9 +41,9 @@ export default function MyForm(props) {
         setText(Space.join(" "))
     }
     return (
-        <div>
+        <div >
 
-            <div className={`mb-3 container bg-${props.mode}`}>
+            <div className= 'my-5 container'>
                 <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
                 <textarea className={`form-control  bg-${props.mode === "light" ? "light" : "dark"} text-${props.mode === "light" ? 'dark' : 'light'}`} value={text} onChange={ChangInput} id="exampleFormControlTextarea1" rows="8"></textarea>
 

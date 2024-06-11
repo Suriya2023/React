@@ -7,13 +7,13 @@ function App() {
 
   const ToggleMode = () => {
     if (mode === "light") {
-      Setmode("😀")
+      Setmode("dark")
       document.body.style.background = "black"
       document.body.style.color = "white"
 
 
     } else {
-      Setmode("😴");
+      Setmode("light");
       document.body.style.background = "white"
       document.body.style.color = "black"
     }
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <Navbar mode={mode} ToggleMode={ToggleMode} Setmode ={Setmode} />
+      <Navbar mode={mode} ToggleMode={ToggleMode} />
       <FormData mode={mode} ToggleMode={ToggleMode} />
 
     </>
