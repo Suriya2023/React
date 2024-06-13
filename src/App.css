@@ -1,12 +1,119 @@
-#btn3{
-    width:70px;
-    height: 70px;
-    border-radius: 50%;
-}
-.suraj{
-    margin:-400px auto;
-    width: 20%;
-    box-shadow: 10px 10px 10px ;
-    border: 2px solid ;
-    float: inline-end;
-}
+nav{
+    text-align: center;
+    margin: 0 auto;
+  
+  }
+  nav ul{
+    display:flex;
+    justify-content: space-around;
+  }
+  .img1{
+    height:700px;
+    width:100%;
+  }
+  .circle-1{
+    height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+      margin-left: 2rem;
+      margin-top: 1rem;
+  }
+  .circle-2{
+    height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+      margin-left: 10rem;
+      margin-top: -6rem;
+  }
+  #cir{
+    height: 14rem;
+      width: 83rem;
+      background-color:rgb(243, 243, 243);
+      opacity: 0.9 ; 
+      margin-left: -240px;
+    
+  }
+  .font-1{
+    color: white;
+      font-size: 24px;
+      margin-left: 28px;
+      position: absolute;
+      margin-top: 24px;
+      font-family: cursive;
+  }
+  .font-2{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 24px;
+    font-family: cursive;
+  }
+  .circle-3{
+    height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+      margin-left: 18rem;
+      margin-top: -6rem;
+  }
+  .font-3{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 24px;
+    font-family: cursive;
+  }
+  .circle-4{
+    height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+      margin-left: 26rem;
+      margin-top: -6rem;
+  }
+  .font-4{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 24px;
+    font-family: cursive;
+  }
+  
+  .circle-5{
+    height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+      margin-left: 34rem;
+      margin-top: -6rem;
+  }
+  .font-5{
+    color: white;
+    font-size: 24px;
+    margin-left: 27px;
+    position: absolute;
+    margin-top: 24px;
+    font-family: cursive;
+  }
+  
+  .circle-6{
+    height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+      margin-left: 42rem;
+      margin-top: -6rem;
+  }
+  .font-6{
+    color: white;
+    font-size: 24px;
+    margin-left: 27px;
+    position: absolute;
+    margin-top: 24px;
+    font-family: cursive;
+  }
