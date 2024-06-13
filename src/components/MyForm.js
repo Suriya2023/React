@@ -79,14 +79,7 @@ export default function MyForm(props) {
 
             <br /><br />
 
-            <div className='suraj'>
-                <button onClick={props.ToggleTheam1} type="button" id='btn3' class=" mx-1 my-3 btn btn-primary">blue</button>
-                <button onClick={props.ToggleTheam2} type="button" id='btn3' class=" mx-1 my-3 btn btn-secondary">gray</button>
-                <button onClick={props.ToggleTheam3} type="button" id='btn3' class=" mx-1 my-3 btn btn-success">bgreen</button><br />
-                <button onClick={props.ToggleTheam4} type="button" id='btn3' class=" mx-1 my-3 btn btn-danger">red</button>
-                <button onClick={props.ToggleTheam5} type="button" id='btn3' class=" mx-1 my-3 btn btn-warning">yellow</button>
-                <button onClick={props.ToggleTheam6} type="button" id='btn3' class=" mx-1 my-3 btn btn-info">aqua</button><br />
-            </div>
+        
 
         </div>
 
