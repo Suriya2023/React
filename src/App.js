@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar.js';
-import TextForm from './components/TextForm.js';
+import TextForm from './components/MyForm.js';
 
 function App() {
 
@@ -114,6 +114,8 @@ function App() {
   return (
     <> 
     <Navbar  heading="SIT" AboutText="About Us"  mode = {mode} btnText={btnText} toggleMode = {toggleMode} redToggle = {redToggle} purpleToggle = {purpleToggle}  greenToggle = {greenToggle} yellowToggle = {yellowToggle} blueToggle = {blueToggle} grayToggle = {grayToggle}/>
+
+    
     <TextForm title="About Us" mode = {mode}  toggleMode = {toggleMode} redToggle = {redToggle} greenToggle = {greenToggle} purpleToggle = {purpleToggle} yellowToggle = {yellowToggle} grayToggle = {grayToggle}/>
     </>
   );
