@@ -28,7 +28,13 @@ function App() {
       document.body.style.color = 'white'
       document.body.style.transition = 'all .5s'
       showAlert("Dark Mode Has Been Enable", "success");
+      setInterval(() => {
+        document.title = "SIT - Admission"
+      }, 2000);
 
+      setInterval(() => {
+        document.title = "SIT - B.sc.It"
+      }, 1500);
     }
     else {
       setMode('light');
@@ -39,6 +45,8 @@ function App() {
 
       document.body.style.transition = 'all .5s'
       showAlert("Light Mode Has Been Enable", "success");
+      showAlert("Light Mode Has Been Enable  ", "Success")
+      document.title = "SIT - Light Mode"
 
     }
   }
