@@ -7,6 +7,53 @@
   pointer-events: none;
 }
 
+.Privecy {
+  text-align: center;
+}
+
+.py {
+
+  text-align: justify;
+}
+
+.accordion-body {
+  width: 50%;
+  float: right;
+  text-align: justify;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2, h3 {
+  color: #444;
+}
+
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+p strong {
+  color: #333;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +79,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

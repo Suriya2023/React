@@ -3,6 +3,8 @@ import Navbar from './componet/Navbar';
 import FormFile from './componet/FormFile';
 import { useState } from 'react';
 import Alert from './componet/Alert'
+import Privecy from './privecyPolicy';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 function App() {
 
   const [mode, setMode] = useState('light')
@@ -50,12 +52,30 @@ function App() {
 
     }
   }
+  const router = createBrowserRouter([{
+    path: '/Home',
+    element: <>
+      <Navbar Title="Git" mode={mode} toggleMode={toggleMode} setBtn={setBtn} />
+      <Alert alert={alert} />
+
+      <FormFile FTitle="Input your text" mode={mode} showAlert={showAlert} toggleMode={toggleMode} />
+    </>
+  },
+    {
+      path: '/privecyPolicy',
+    element: <>
+      <Navbar Title="Git" mode={mode} toggleMode={toggleMode} setBtn={setBtn} />
+
+      <FormFile FTitle="Input your text" mode={mode} showAlert={showAlert} toggleMode={toggleMode} />
+      
+      <Privecy />
+    </>
+    }
+  ])
 
   return (
     <>
-      <Alert alert={alert} />
-      <Navbar Title="Git" mode={mode} toggleMode={toggleMode} setBtn={setBtn} />
-      <FormFile FTitle="Input your text" mode={mode} showAlert={showAlert} toggleMode={toggleMode} />
+<RouterProvider router={router}/>
     </>
   );
 }
